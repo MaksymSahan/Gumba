@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="94dp"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="311dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="311dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="311dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="183dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Sign UP"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
+
