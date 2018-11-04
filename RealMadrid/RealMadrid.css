@@ -1,0 +1,131 @@
+.navbar-brand:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.body1{
+  background-color: #D3D3D3;
+  }
+.navbar{
+  position: sticky-top;
+  background-color: #FFD700;
+}
+.dropdown-item{
+  background-color: #FFD700;
+}
+.dropdown-menu a:hover{
+background-color: #1E90FF;
+}
+h1.HN{
+  margin-top: 70px;
+  background-color: #EEE5DE;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+    div.news1{
+      border:3px solid #FFD700;
+      background-color: #ADD8E6;
+
+    }
+
+.news1:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+ 
+    h2.news_1{
+   text-align: center;
+    }
+
+ div.news2{
+      border:3px solid #FFD700;
+      background-color: #ADD8E6;
+    }
+
+.news2:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_2{
+      text-align: center;
+    }
+
+     div.news3{
+       border:3px solid #FFD700;
+      background-color: #ADD8E6;
+    }
+
+.news3:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_3{
+      text-align: center;
+    }
+
+         div.news4{
+      border:3px solid #FFD700;
+      background-color: #ADD8E6;
+    }
+
+.news4:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_4{
+      text-align: center;
+    }
+

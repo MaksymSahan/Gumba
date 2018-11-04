@@ -1,0 +1,24 @@
+CACHE MANIFEST
+
+CACHE:
+RealMadrid.html
+news.html
+matches.html
+Calendar.html
+plan.html
+bootstrap.min.js
+popper.min.js
+jquery.min.js
+RealMadrid.css
+img/altReal.jpg
+img/end.png
+img/icon1.png
+img/images.png
+img/last.jpg
+img/logo.png
+img/lun.jpg
+
+
+FALLBACK:
+/info.html /error.html
+
