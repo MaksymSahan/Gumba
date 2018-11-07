@@ -15,17 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".Main2Activity">
+        <activity android:name=".Table">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Shop" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RubbishList"
+            android:label="@string/title_activity_rubbish_list"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".Registration" />
-        <activity android:name=".AddProducts" />
-        <activity android:name=".add_refregirator"></activity>
+        <activity android:name=".Registration"></activity>
     </application>
 
 </manifest>
