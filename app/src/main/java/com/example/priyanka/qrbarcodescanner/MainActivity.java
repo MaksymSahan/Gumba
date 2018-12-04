@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
         {
             if(checkPermission())
             {
-                Toast.makeText(getApplicationContext(), "Permission already granted!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Сканер готовий до роботи", Toast.LENGTH_LONG).show();
             }
             else
             {
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
     private void showMessageOKCancel(String message, DialogInterface.OnClickListener okListener) {
         new android.support.v7.app.AlertDialog.Builder(MainActivity.this)
                 .setMessage(message)
-                .setPositiveButton("OK", okListener)
+                .setPositiveButton("Add", okListener)
                 .setNegativeButton("Cancel", null)
                 .create()
                 .show();
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Scan Result");
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 scannerView.resumeCameraPreview(MainActivity.this);

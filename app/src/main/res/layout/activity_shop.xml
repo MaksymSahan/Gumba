@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="91dp"
-        android:text="Milk"
+        android:text="Кетчуп"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="95dp" />
@@ -35,7 +35,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="167dp"
-        android:text="Meat"
+        android:text="Майонез"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="153dp" />
@@ -50,7 +50,7 @@
         android:layout_marginStart="-2dp"
         android:layout_marginLeft="-2dp"
         android:layout_marginBottom="227dp"
-        android:text="Tomato"
+        android:text="М'ясо"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="206dp" />
@@ -60,12 +60,44 @@
         android:layout_width="337dp"
         android:layout_height="40dp"
         android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="154dp"
-        android:text="Water"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="150dp"
+        android:text="Сир"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="264dp"
-        android:layout_alignLeft="@+id/checkBox1" />
+        tools:layout_editor_absoluteY="264dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="337dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="74dp"
+        android:text="Помідори"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="337dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="7dp"
+        android:text="Сметана"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="264dp" />
 
 </RelativeLayout>

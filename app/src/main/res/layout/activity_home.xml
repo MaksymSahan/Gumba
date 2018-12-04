@@ -27,55 +27,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="137dp"
-        android:text="Milk"
+        android:text="Майонез"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="95dp" />
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="337dp"
-        android:layout_height="40dp"
-        android:layout_alignStart="@+id/checkBox3"
-        android:layout_alignLeft="@+id/checkBox3"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="211dp"
-        android:text="Meat"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="153dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="337dp"
-        android:layout_height="40dp"
-        android:layout_alignStart="@+id/checkBox4"
-        android:layout_alignLeft="@+id/checkBox4"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginBottom="237dp"
-        android:text="Tomato"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="206dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="337dp"
-        android:layout_height="40dp"
-        android:layout_alignStart="@+id/checkBox1"
-        android:layout_alignLeft="@+id/checkBox1"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginBottom="158dp"
-        android:text="Water"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="264dp" />
 </RelativeLayout>
 
     <android.support.design.widget.AppBarLayout
